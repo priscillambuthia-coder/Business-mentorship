@@ -1,0 +1,93 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f2f8ff; 
+    height: 100vh;
+    margin: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background: #ffffff;
+    width: 360px;
+    padding: 32px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+
+
+
+.SignUp {
+    display: none;
+}
+
+h2 {
+    color: #2b6cb0; 
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+
+p {
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+
+form {
+    margin-top: 10px;
+}
+
+
+input {
+    width: 100%;
+    padding: 11px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccddee;
+    font-size: 14px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #63b3ed; 
+}
+
+
+button {
+    width: 100%;
+    padding: 11px;
+    background: #63b3ed; 
+    border: none;
+    color: white;
+    font-size: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #4299e1;
+}
+
+.link {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.link a {
+    color: #2b6cb0;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.link a:hover {
+    text-decoration: underline;
+}
+
