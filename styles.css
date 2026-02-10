@@ -87,8 +87,22 @@ a {
     color: rgb(185, 199, 199);
     text-transform: uppercase;
 }
-.desc {
+.features {
+    Font-Family: Trial, Helvetica, sans-serif;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    padding: 15px 30px;
+    border-radius: 12px;
+    flex-wrap: wrap;
+    border-left: 15px solid #2b6cb0;
+}
+.desc {
+    
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -99,10 +113,11 @@ a {
     font-size: x-large;
     text-align: center;
     color: rgb(8, 8, 54);
+   
 }
 
 .desc h2 {
-    color: rgb(8, 8, 54);
+    color: rgb(25, 25, 237);
     text-transform: uppercase;
 }
 .accounts{
@@ -119,22 +134,19 @@ a {
 }
 .mentors{
       align-items: center;
-      background-color: rgb(228, 227, 234);
+    border-left: 15px solid #2b6cb0;
       width: 2000%;
       border-radius: 40px;
-      border-width: 20px rgb(4, 2, 49);
-      box-shadow: 3px 3px ;
+      border-width: 2px solid black;
       padding-bottom:20px ;
       font-size: x-large;
 }
 .entrepreneurs{
     align-items: center;
-    background-color: rgb(247, 248, 249);
     font-size: x-large;
     width: 2000%;
     border-radius: 40px;
-    border-width: 20px rgb(4, 2, 49);
-    box-shadow: 3px 3px;
+    border-left: 15px solid #2b6cb0;
     padding-bottom: 20px;
 }
 h2 {
@@ -160,10 +172,10 @@ h2 {
 .button button {
     font-size: medium;
     font-weight: 800;
-    background-color: rgb(41, 11, 237);
+    background-color: #2b6cb0;
     color: aliceblue;
     border-radius: 25px;
-    box-shadow: 3px 3px rgb(37, 3, 37);
+    box-shadow: 2px 2px rgb(37, 3, 37);
 }
 .statistics {
     display: flex;
