@@ -110,3 +110,35 @@ a {
     color: rgb(8, 8, 54);
     text-transform: uppercase;
 }
+.accounts{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    padding: 15px 30px;
+    border-radius: 12px;
+    gap: 10%;
+    font-size: large;
+    text-align: center;
+}
+.mentors{
+      align-items: center;
+      background-color: rgb(228, 227, 234);
+      width: 2000%;
+      border-radius: 40px;
+      border-width: 20px rgb(4, 2, 49);
+      box-shadow: 3px 3px ;
+      padding-bottom:20px ;
+      font-size: x-large;
+}
+.entrepreneurs{
+    align-items: center;
+    background-color: rgb(247, 248, 249);
+    font-size: x-large;
+    width: 2000%;
+    border-radius: 40px;
+    border-width: 20px rgb(4, 2, 49);
+    box-shadow: 3px 3px;
+    padding-bottom: 20px;
+}
