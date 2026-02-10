@@ -142,3 +142,31 @@ a {
     box-shadow: 3px 3px;
     padding-bottom: 20px;
 }
+h2 {
+    font-size: xx-large;
+    font-style: oblique;
+    font-weight: 700;
+    color: rgb(22, 22, 228);
+    text-transform: uppercase;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 250px;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+
+}
+
+.button button {
+    font-size: medium;
+    font-weight: 800;
+    background-color: rgb(41, 11, 237);
+    color: aliceblue;
+    border-radius: 25px;
+    box-shadow: 3px 3px rgb(37, 3, 37);
+}
