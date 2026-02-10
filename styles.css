@@ -47,3 +47,23 @@ a {
     background-color: rgba(136, 136, 215, 0.972);
     border-radius: 10px;
 }
+.about {
+    background-color: rgb(186, 192, 207);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    padding: 15px 30px;
+    border-radius: 12px;
+    flex-wrap: wrap;
+}
+
+.about img {
+    outline: none;
+    border: none;
+    width: 70vw;
+    height: 30vh;
+}
