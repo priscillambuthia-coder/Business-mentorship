@@ -92,3 +92,21 @@ a {
     color: rgb(185, 199, 199);
     text-transform: uppercase;
 }
+.desc {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+    justify-items: center;
+    padding: 15px 30px;
+    border-radius: 12px;
+    font-size: x-large;
+    text-align: center;
+    color: rgb(8, 8, 54);
+}
+
+.desc h2 {
+    color: rgb(8, 8, 54);
+    text-transform: uppercase;
+}
