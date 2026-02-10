@@ -67,3 +67,28 @@ a {
     width: 70vw;
     height: 30vh;
 }
+.about p {
+    font-size: x-large;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgb(35, 3, 52);
+}
+
+.about h2 {
+    font-size: xx-large;
+    font-style: oblique;
+    font-weight: 700;
+    color: rgb(176, 35, 211);
+    text-transform: uppercase;
+}
+
+.about button {
+    width: 200px;
+    height: 40px;
+    background-color: rgb(26, 9, 115);
+    border-radius: 20px;
+    box-shadow: 3px 3px rgb(28, 8, 31);
+    font-size: large;
+    color: rgb(185, 199, 199);
+    text-transform: uppercase;
+}
