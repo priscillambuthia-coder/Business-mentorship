@@ -2,17 +2,13 @@
 
 body {
 
-    background: linear-gradient(70deg,
-            #9d3be9,
-            #8d628c,
-            #fbc2eb,
-            #cdc5b1);
+    background: white;
     height: 100vh;
     width: 100vw;
 }
 
 nav {
-    background-color: rgba(148, 148, 199, 0.626);
+    background-color: #2b6cb0;
     color: beige;
     border-radius: 12px;
 }
@@ -29,7 +25,7 @@ nav ul {
 
 a {
     text-decoration: none;
-    color: rgb(232, 229, 242);
+    color: black;
 
 }
 
@@ -48,10 +44,11 @@ a {
     border-radius: 10px;
 }
 .about {
-    background-color: rgb(186, 192, 207);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    Font-Family: Trial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
+    border-left: 15px solid #2b6cb0 ;
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
@@ -62,8 +59,6 @@ a {
 }
 
 .about img {
-    outline: none;
-    border: none;
     width: 70vw;
     height: 30vh;
 }
@@ -85,9 +80,9 @@ a {
 .about button {
     width: 200px;
     height: 40px;
-    background-color: rgb(26, 9, 115);
+    background-color: #2b6cb0;
     border-radius: 20px;
-    box-shadow: 3px 3px rgb(28, 8, 31);
+    box-shadow: 3px 3px rgb(29, 20, 145);
     font-size: large;
     color: rgb(185, 199, 199);
     text-transform: uppercase;
