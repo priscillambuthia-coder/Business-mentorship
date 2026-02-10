@@ -209,3 +209,39 @@ h3::after {
     font-size: x-large;
 
 }
+footer {
+    display: flex;
+    gap: 50vw;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(32, 23, 14, 0.785);
+    font-size: larger;
+    margin-top: 10px;
+}
+
+#misc {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    margin-top: 30px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    padding-bottom: 10px;
+}
+
+.contacts ul {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    list-style-type: none;
+    margin-right: auto;
+    margin-left: auto;
+}
