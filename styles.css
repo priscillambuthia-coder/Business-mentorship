@@ -190,7 +190,8 @@ h2 {
     margin-right: auto;
     padding-left: 30px;
     padding-right: 30px;
-    background-color: antiquewhite;
+    font-Family: Trial, Helvetica, sans-serif;
+    
 }
 
 .statistics h3 {
@@ -223,9 +224,10 @@ footer {
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgba(32, 23, 14, 0.785);
+    background-color: #2b6cb0;
     font-size: larger;
     margin-top: 10px;
+    font-Family: Trial, Helvetica, sans-serif;
 }
 
 #misc {
@@ -233,6 +235,8 @@ footer {
     flex-direction: column;
     gap: 2vh;
     margin-top: 30px;
+    font-weight: 700;
+    font-size: larger;
 }
 
 .contacts {
