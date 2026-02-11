@@ -7,3 +7,14 @@ body{
     justify-items: center;
     align-items: center;
 }
+.profile{
+    display: flex;
+    flex-direction: column;
+    font-family: Trial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: 800;
+}
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
