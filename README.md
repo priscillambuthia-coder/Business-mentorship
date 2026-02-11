@@ -67,9 +67,13 @@ Contribute: Share your expertise or resources to help others thrive.
 1. HTML
 2. CSS
 3. Js
+
+### Git clone
+ https://github.com/priscillambuthia-coder/Business-mentorship.git
  
 ### Contributions
 This project was done by Bryan Gwendo, David Manjari, Priscilla mbuthia and Louis Kithome.
 
 ### Licenses
 Mentor Bridge. All rights reserved. Copyright @2026.
+
