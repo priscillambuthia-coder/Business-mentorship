@@ -1,10 +1,15 @@
 
 
 body {
-
+    display: flex;
     background: white;
     height: 100vh;
-    width: 100vw;
+    width: 80vw;
+    justify-items: center
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 nav {
@@ -60,7 +65,7 @@ a {
 
 .about img {
     width: 70vw;
-    height: 30vh;
+    height: 30vw;
 }
 .about p {
     font-size: x-large;
@@ -255,4 +260,8 @@ footer {
     list-style-type: none;
     margin-right: auto;
     margin-left: auto;
+}
+.accounts img{
+    width: 25vw;
+    border-radius: 15px;
 }
