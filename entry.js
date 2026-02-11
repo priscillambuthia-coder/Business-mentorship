@@ -50,10 +50,6 @@ AllUsers.prototype.loginUser = function(email, password) {
 
 let myUsers = new AllUsers();
 
-
-
-
-
 document.getElementById("SignUp").addEventListener("submit", function(e) {
     e.preventDefault();
 
