@@ -1,0 +1,267 @@
+
+
+body {
+    display: flex;
+    background: white;
+    height: 100vh;
+    width: 80vw;
+    justify-items: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+nav {
+    background-color: #2b6cb0;
+    color: beige;
+    border-radius: 12px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.nav h1 {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(136, 136, 215, 0.972);
+    border-radius: 10px;
+}
+.about {
+    
+    Font-Family: Trial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    border-left: 15px solid #2b6cb0 ;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    padding: 15px 30px;
+    border-radius: 12px;
+    flex-wrap: wrap;
+}
+
+.about img {
+    width: 70vw;
+    height: 30vw;
+}
+.about p {
+    font-size: x-large;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgb(35, 3, 52);
+}
+
+.about h2 {
+    font-size: xx-large;
+    font-style: oblique;
+    font-weight: 700;
+    color: rgb(176, 35, 211);
+    text-transform: uppercase;
+}
+
+.about button {
+    width: 200px;
+    height: 40px;
+    background-color: #2b6cb0;
+    border-radius: 20px;
+    box-shadow: 3px 3px rgb(29, 20, 145);
+    font-size: large;
+    color: rgb(185, 199, 199);
+    text-transform: uppercase;
+}
+.features {
+    Font-Family: Trial, Helvetica, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    padding: 15px 30px;
+    border-radius: 12px;
+    flex-wrap: wrap;
+    border-left: 15px solid #2b6cb0;
+}
+.desc {
+    
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+    justify-items: center;
+    padding: 15px 30px;
+    border-radius: 12px;
+    font-size: x-large;
+    text-align: center;
+    color: rgb(8, 8, 54);
+   
+}
+
+.desc h2 {
+    color: rgb(25, 25, 237);
+    text-transform: uppercase;
+}
+.accounts{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    padding: 15px 30px;
+    border-radius: 12px;
+    gap: 10%;
+    font-size: large;
+    text-align: center;
+}
+.mentors{
+      align-items: center;
+    border-left: 15px solid #2b6cb0;
+      width: 2000%;
+      border-radius: 40px;
+      border-width: 2px solid black;
+      padding-bottom:20px ;
+      font-size: x-large;
+}
+.entrepreneurs{
+    align-items: center;
+    font-size: x-large;
+    width: 2000%;
+    border-radius: 40px;
+    border-left: 15px solid #2b6cb0;
+    padding-bottom: 20px;
+}
+h2 {
+    font-size: xx-large;
+    font-style: oblique;
+    font-weight: 700;
+    color: rgb(22, 22, 228);
+    text-transform: uppercase;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 250px;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+
+}
+
+.button button {
+    font-size: medium;
+    font-weight: 800;
+    background-color: #2b6cb0;
+    color: aliceblue;
+    border-radius: 25px;
+    box-shadow: 2px 2px rgb(37, 3, 37);
+}
+.statistics {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    gap: 20px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-Family: Trial, Helvetica, sans-serif;
+    
+}
+
+.statistics h3 {
+    color: blue;
+    font-size: xxx-large;
+    font-weight: 800;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+h3::after {
+    content: "";
+    display: block;
+    width: 200px;
+    height: 3px;
+    background-color: blue;
+    margin: 10px auto;
+}
+
+.statistics p {
+    text-align: center;
+    font-size: x-large;
+
+}
+footer {
+    display: flex;
+    gap: 50vw;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #2b6cb0;
+    font-size: larger;
+    margin-top: 10px;
+    font-Family: Trial, Helvetica, sans-serif;
+}
+
+#misc {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: larger;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    padding-bottom: 10px;
+}
+
+.contacts ul {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    list-style-type: none;
+    margin-right: auto;
+    margin-left: auto;
+}
+.accounts img{
+    width: 25vw;
+    border-radius: 15px;
+}
