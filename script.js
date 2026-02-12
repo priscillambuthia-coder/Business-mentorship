@@ -19,10 +19,11 @@ function login() {
         return showMessage("Invalid email or password");
     }
 
-    window.location.href = "acc-dashboard.html";
+    window.location.href = "login.html";
 }
 
 // Display messages
 function showMessage(text) {
     document.getElementById("message").innerText = text;
 }
+
