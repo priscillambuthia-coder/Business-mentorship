@@ -31,7 +31,7 @@ AllUsers.prototype.addUser = function(user) {
 };
 
 
-AllUsers.prototype.loginUser = function(email, password) {
+/*AllUsers.prototype.loginUser = function(email, password) {
 
     if (!this.users.has(email)) {
         alert("No account found!");
@@ -45,7 +45,7 @@ AllUsers.prototype.loginUser = function(email, password) {
     } else {
         alert("Incorrect password!");
     }
-};
+};*/
 
 
 let myUsers = new AllUsers();
@@ -66,27 +66,43 @@ document.getElementById("SignUp").addEventListener("submit", function(e) {
 });
 
 
-const button = document.getElementById("loginBtn");
+const button = document.getElementById("login");
 
-button.addEventListener("click", function () {
+button.addEventListener("click", function (e) {
+    e.preventDefault();
+    alert('Login Successful');
+
     console.log("Button clicked");
     login();
 });
 // Login user
-function login() {
-    const email = document.getElementById("loginEmail").value;
-    const password = document.getElementById("loginPassword").value;
+function login(email,password) {
+    this.email = email;
+    this.password = password;
+    document.getElementById("login").addEventListener("submit", function(e) {
+    e.preventDefault();
+    })
+    
 
-    const validUser = users.find(
-        user => user.email === email && user.password === password
-    );
-
-    if (!validUser) {
-        return showMessage("Invalid email or password");
+    if(myUsers.users.has(email)){
+        alert("No account");
+        return;
     }
 
-    window.location.href = "acc-dashboard.html";
+    const user = myUsers.users.get(email);
+
+    if (user.password === password){
+        alert("Welcome" + user.username);
+         window.location.href = "login.html";
+    }
+
+    else {
+        alert("Invalid email or password");
+    }
+
+    window.location.href = "login.html";
 }
+
 
 // Display messages
 function showMessage(text) {
