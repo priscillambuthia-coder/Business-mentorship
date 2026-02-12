@@ -3,12 +3,11 @@
 body {
     display: flex;
     background: white;
-    height: 100vh;
     width: 80vw;
-    justify-items: center;
     align-items: center;
     margin-left: auto;
-    margin-right: auto;
+    margin-right:auto;
+  
 
 }
 
@@ -81,11 +80,23 @@ a {
     color: rgb(176, 35, 211);
     text-transform: uppercase;
 }
+.about a{
+    width: 200px;
+    height: 40px;
+    background-color: #2b6cb0; 
+    text-align: center;
+    align-content: center;
+    border-radius: 20px;
+    box-shadow: 3px 3px rgb(29, 20, 145);
+    font-size: large;
+    color: rgb(185, 199, 199);
+}
 
-.about button {
+.button a{
     width: 200px;
     height: 40px;
     background-color: #2b6cb0;
+    align-content: center;
     border-radius: 20px;
     box-shadow: 3px 3px rgb(29, 20, 145);
     font-size: large;
