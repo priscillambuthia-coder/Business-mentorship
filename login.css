@@ -57,3 +57,19 @@ h2{
     margin-right:auto;
 }
 
+.history{
+    margin-top:40px ;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.history a{
+ text-decoration: none;
+ color: black;
+ background-color: rgb(237, 239, 255);
+ padding: 5px 10px;
+ border-left: 5px solid #2b6cb0;
+ border-top-left-radius: 5px;
+}
