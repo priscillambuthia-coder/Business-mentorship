@@ -31,23 +31,6 @@ AllUsers.prototype.addUser = function(user) {
 };
 
 
-/*AllUsers.prototype.loginUser = function(email, password) {
-
-    if (!this.users.has(email)) {
-        alert("No account found!");
-        return;
-    }
-
-    let user = this.users.get(email);
-
-    if (user.password === password) {
-        alert("Welcome " + user.username);
-    } else {
-        alert("Incorrect password!");
-    }
-};*/
-
-
 let myUsers = new AllUsers();
 
 document.getElementById("SignUp").addEventListener("submit", function(e) {
@@ -70,41 +53,42 @@ const button = document.getElementById("login");
 
 button.addEventListener("click", function (e) {
     e.preventDefault();
-    alert('Login Successful');
 
-    console.log("Button clicked");
-    login();
+    let form = document.getElementById("Login");
+    let inputs = form.querySelectorAll("input");
+
+    let email = inputs[0].value;
+    let password = inputs[1].value;
+
+    login(email, password);
 });
-// Login user
-function login(email,password) {
-    this.email = email;
-    this.password = password;
-    document.getElementById("login").addEventListener("submit", function(e) {
-    e.preventDefault();
-    })
-    
 
-    if(myUsers.users.has(email)){
+function login(email, password) {
+
+    if (!myUsers.users.has(email)) {
         alert("No account");
         return;
     }
 
     const user = myUsers.users.get(email);
 
-    if (user.password === password){
-        alert("Welcome" + user.username);
-         window.location.href = "login.html";
-    }
+    if (user.password === password) {
+        alert("Welcome " + user.username);
+        ocument.getElementById("message").innerHTML =
+        "Welcome" ;
+         document.getElementById("msgName").innerHTML = 
+          user.name;
+        
+         document.getElementById("name").innerHTML = user.name;
 
-    else {
+        window.location.href = "login.html";
+    } else {
         alert("Invalid email or password");
     }
-
-    window.location.href = "login.html";
 }
 
 
-// Display messages
-function showMessage(text) {
-    document.getElementById("message").innerText = text;
-}
+ 
+       
+
+
