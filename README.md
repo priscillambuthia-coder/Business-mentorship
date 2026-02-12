@@ -74,6 +74,9 @@ Contribute: Share your expertise or resources to help others thrive.
 ### Contributions
 This project was done by Bryan Gwendo, David Manjari, Priscilla mbuthia and Louis Kithome.
 
-### Licenses
-Mentor Bridge. All rights reserved. Copyright @2026.
+### License and Copyright Information
+{MIT License}*
+
+Copyright (c) [2026] -Mentorbridge
+
 
