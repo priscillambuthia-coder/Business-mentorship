@@ -74,19 +74,18 @@ function login(email, password) {
 
     if (user.password === password) {
         alert("Welcome " + user.username);
-        ocument.getElementById("message").innerHTML =
+            window.location.href = "login.html";
+    } else {
+        alert("Invalid email or password");
+    }
+        document.getElementById("message").innerHTML =
         "Welcome" ;
          document.getElementById("msgName").innerHTML = 
           user.name;
         
-         document.getElementById("name").innerHTML = user.name;
+         document.getElementById("name").innerHTML = user.name;}
 
-        window.location.href = "login.html";
-    } else {
-        alert("Invalid email or password");
-    }
-}
-
+     
 
  
        
